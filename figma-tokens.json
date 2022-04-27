@@ -1,6 +1,6 @@
 {
   "global": {
-    "Neutral": {
+    "SC": {
       "neutral-05": {
         "value": "#FFFFFF",
         "type": "color"
@@ -41,39 +41,6 @@
         "value": "#252626",
         "type": "color"
       },
-      "s1-down": {
-        "value": {
-          "x": "0",
-          "y": "1",
-          "blur": "4",
-          "spread": "0",
-          "color": "rgba({Neutral.neutral-90}, 0.1)",
-          "type": "dropShadow"
-        },
-        "type": "boxShadow"
-      },
-      "s1-right": {
-        "value": {
-          "x": "1",
-          "y": "0",
-          "blur": "4",
-          "spread": "0",
-          "color": "rgba({Neutral.neutral-90}, 0.1)",
-          "type": "dropShadow"
-        },
-        "type": "boxShadow",
-        "description": "rgba(22, 62, 89, 0.1)"
-      }
-    },
-    "1x": {
-      "value": "{uniquebase}",
-      "type": "borderRadius"
-    },
-    "x4": {
-      "value": "{1x}*4",
-      "type": "borderRadius"
-    },
-    "Blue": {
       "blue-05": {
         "value": "#E7F2F9",
         "type": "color"
@@ -114,17 +81,37 @@
         "value": "#1B384C",
         "type": "color"
       },
-      "s2": {
+      "s1-down": {
         "value": {
           "x": "0",
-          "y": "2",
+          "y": "1",
           "blur": "4",
           "spread": "0",
-          "color": "rgba(27, 56, 76, 0.12)",
+          "color": "rgba({Neutral.neutral-90}, 0.1)",
           "type": "dropShadow"
         },
         "type": "boxShadow"
+      },
+      "s1-right": {
+        "value": {
+          "x": "1",
+          "y": "0",
+          "blur": "4",
+          "spread": "0",
+          "color": "rgba({Neutral.neutral-90}, 0.1)",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow",
+        "description": "rgba(22, 62, 89, 0.1)"
       }
+    },
+    "1x": {
+      "value": "{uniquebase}",
+      "type": "borderRadius"
+    },
+    "x4": {
+      "value": "{1x}*4",
+      "type": "borderRadius"
     },
     "Green": {
       "green-05": {
@@ -729,17 +716,17 @@
     },
     "Hierarchy": {
       "level-02": {
-        "value": "{Neutral.neutral-05}",
+        "value": "{SC.neutral-05}",
         "type": "color"
       },
       "level-01": {
-        "value": "{Neutral.neutral-20}",
+        "value": "{SC.neutral-20}",
         "type": "color"
       }
     },
     "Maintain": {
       "neutral-05": {
-        "value": "{Neutral.neutral-05}",
+        "value": "{SC.neutral-05}",
         "type": "color"
       }
     },
