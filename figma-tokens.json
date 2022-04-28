@@ -153,17 +153,6 @@
       "green-90": {
         "value": "#254934",
         "type": "color"
-      },
-      "s3": {
-        "value": {
-          "x": "0",
-          "y": "5",
-          "blur": "10",
-          "spread": "0",
-          "color": "rgba(45, 112, 72, 0.15)",
-          "type": "dropShadow"
-        },
-        "type": "boxShadow"
       }
     },
     "Profile": {
