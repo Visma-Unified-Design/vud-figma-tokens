@@ -127,7 +127,7 @@
           "y": "1",
           "blur": "4",
           "spread": "0",
-          "color": "rgba({Neutral.neutral-90}, 0.1)",
+          "color": "rgba({Base.neutral-90}, 0.1)",
           "type": "dropShadow"
         },
         "type": "boxShadow"
@@ -138,7 +138,7 @@
           "y": "0",
           "blur": "4",
           "spread": "0",
-          "color": "rgba({Neutral.neutral-90}, 0.1)",
+          "color": "rgba({Base.neutral-90}, 0.1)",
           "type": "dropShadow"
         },
         "type": "boxShadow",
